@@ -6,7 +6,7 @@
     {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms }}
       <li class="taxonomy-list-item">          
-        <a href="{{ $baseUrl }}{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a><span>({{ len $value }})</span>
+        <a href="{{ $baseUrl }}{{ $data.Plural }}/{{ $key | urlize }}.html">{{ $key }}</a><span>({{ len $value }})</span>
       </li>
     {{ end }}
   </ul>
