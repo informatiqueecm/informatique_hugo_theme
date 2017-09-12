@@ -7,7 +7,7 @@
         {{ if .Params.categories }}
         <div class="categories">
           {{ range .Params.categories }}
-            <a class="categories-item" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            <a class="categories-item" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}.html">{{ . }}</a>
           {{ end }}
         </div>
         {{ end }}        
