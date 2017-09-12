@@ -1,0 +1,26 @@
+/* centering images */
+/* http://www.ebadf.net/2016/10/19/centering-images-in-hugo/ */
+
+img[src$='#center'] {
+    display: block;
+    margin: 0.7rem auto; 
+}
+
+img[src$='#floatleft'] {
+    float:left;
+    margin: 0.7rem;    
+}
+
+img[src$='#floatright'] {
+    float:right;
+    margin: 0.7rem;
+}
+
+
+/* shortcut for menu */
+code.menu_code {
+    font-family: Monaco;
+    font-size: 0.750em;
+    color: #23d160;
+}
+    
