@@ -26,7 +26,13 @@
     </div>
     <footer class="post-footer">
       <!-- /.social -->
+      
       <div class="share">
+          <div class="pagenation">
+          {{ if .Params.author }}
+          <p> <strong>Auteur(s) :</strong> {{ .Params.author }} </p>
+          {{ end }}                  
+          </div>
         {{ partial "share.html" }}
       </div>
 
