@@ -24,3 +24,7 @@ code.menu_code {
     color: #23d160;
 }
     
+/* kludge for hugo table of content */    
+#TableOfContents > ul {
+    list-style-type: none;
+}
