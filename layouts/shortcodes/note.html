@@ -1,0 +1,10 @@
+{{ if .Get 0 }}
+<blockquote class="blockcode {{.Get 0}}">
+    <div class="blockcode {{.Get 0}}">
+{{ else }}    
+<blockquote class="blockcode">
+    <div class="blockcode">
+{{ end }}    
+        {{ .Inner }}
+    </div>
+</blockquote>

@@ -28,3 +28,50 @@ code.menu_code {
 #TableOfContents > ul {
     list-style-type: none;
 }
+
+
+blockquote {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+/* blockcode differences */
+div.blockcode {
+    padding-left: 88px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height:48px;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+
+    background-image:url(/img/tip.png);
+}
+
+blockquote.blockcode {
+    border-left-color: green;
+    background-color: #dfd;
+}
+
+
+div.blockcode.warning {
+    background-image:url(/img/warning.png);
+
+}
+
+blockquote.blockcode.warning {
+    border-left-color: red;
+    background-color: #fdd;
+}
+
+
+div.blockcode.important {
+    background-image:url(/img/important.png);
+}
+
+blockquote.blockcode.important {
+    border-left-color: yellow;
+    background-color: #ffc;
+}
+
+
+
