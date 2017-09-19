@@ -38,14 +38,14 @@
 
       <div class="pagenation">
         <ul class="pagenation-list">
-          {{ if .PrevInSection }}
+          {{ if .NextInSection }}
           <li class="pager previous">
-            <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; Article Précédent</a>
+            <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">&larr; Précédent</a>
           </li>
           {{ end }}
-          {{ if .NextInSection }}
+          {{ if .PrevInSection }}
           <li class="pager next">
-            <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">Article Suivant &rarr;</a>
+            <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}"> Suivant &rarr;</a>
           </li>
           {{ end }}
         </ul>
