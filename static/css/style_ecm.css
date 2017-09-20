@@ -44,7 +44,7 @@ div.blockcode {
     background-position: 0px 50%;
     background-repeat: no-repeat;
 
-    background-image:url(/img/tip.png);
+    background-image:url(../img/tip.png);
 }
 
 blockquote.blockcode {
@@ -54,7 +54,7 @@ blockquote.blockcode {
 
 
 div.blockcode.warning {
-    background-image:url(/img/warning.png);
+    background-image:url(../img/warning.png);
 
 }
 
@@ -65,7 +65,7 @@ blockquote.blockcode.warning {
 
 
 div.blockcode.important {
-    background-image:url(/img/important.png);
+    background-image:url(../img/important.png);
 }
 
 blockquote.blockcode.important {
