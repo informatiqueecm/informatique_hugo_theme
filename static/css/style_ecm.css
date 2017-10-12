@@ -73,5 +73,15 @@ blockquote.blockcode.important {
     background-color: #ffc;
 }
 
-
+/* title colors */
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.post-body > h2,
+h2 {
+    color: #eaeaea;
+    padding-left: 10px;
+    background-color: #5E5E61;
+}
 
